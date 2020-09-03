@@ -1,0 +1,44 @@
+#app{
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 120px;
+    border: 5px solid rgb(0, 140, 255);
+    
+}
+h1{
+    colosr: rgb(0, 140, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 350px;
+}
+button{
+    display: block;
+    margin: 15px auto;
+    padding: 8px 30px;
+    outline: none;
+    border: transparent;
+    border-radius: 3px;
+    background: rgb(0, 140, 255);
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.compasso{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto;
+}
+div.item{
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 100%;
+}
+.preenchido{
+    background: rgb(0, 140, 255);
+}

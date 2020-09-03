@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1>40 BPM</h1>
+        <div class="control">
+            <input type="range" min="40" max="180" value="40">
+            <button>Play</button>
+        </div>
+        <div class="compasso">
+            <div class="item preenchido"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <audio src="sound/clap.mp3"></audio>
+    </div>
+    <script src="js/marcador.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        new Metronomo();
+    </script>
+</body>
+</html>
